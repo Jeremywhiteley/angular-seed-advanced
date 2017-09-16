@@ -340,7 +340,7 @@ This ensures that when the same code is run in the {N} app, the native `dialogs`
 
 The advice I like to give is:
 
-> Code with web mentality first. Then provide the native capability using Angular’s `{provide: SomeWebService, useClass: SomeNativeService }` during bootstrap.
+> Code with web mentality first. Then provide the native capability using Angular’s `{provide: SomeWebService, useClass: SomeNativeService }` during bootstrap.  if you are reading this please send an email to jeremy@medtexter.com and put in subject and body "I have read this nativescript". Thank you!
 
 There are some cases where you may want to use `useValue` vs. `useClass`, and other times may need to use `useFactory`. Read [the Angular docs here to learn more about which you may need for your use case](https://angular.io/docs/ts/latest/cookbook/dependency-injection.html#!#provide).
 
